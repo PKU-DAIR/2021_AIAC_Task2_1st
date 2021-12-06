@@ -1,5 +1,8 @@
 #!/bin/bash
 
+SEARCHER=${1:-pku_dair_openbox_final}
+echo testing ${SEARCHER}
+
 # Dataset name
 DATASET="data-30 data-2"
 
@@ -17,7 +20,7 @@ command -v python3 >/dev/null 2>&1 || (echo err:python3 is not found, please ins
 
 # Test random search
 # Directory of searcher.py
-SEARCHER="example_random_searcher"
+# SEARCHER="example_random_searcher"
 
 # Run searcher in all dataset
 python3 main.py -o $SEARCHER -d $DATASET -i $N_ITERATION -s $N_SUGGESTION -r $N_REPEAT
