@@ -1,6 +1,6 @@
 # 1st Solution to QQ Browser 2021 AIAC Track 2
 
-This repository is the winning solution to QQ Browser 2021 AI Algorithm Competition
+This repository is the winning solution to [QQ Browser 2021 AI Algorithm Competition](https://algo.browser.qq.com/)
 Track 2 Automated Hyperparameter Optimization (CIKM AnalytiCup 2021).
 
 **Team:** PKU-DAIR. **Members:** Huaijun Jiang, Yu Shen, Yang Li.
